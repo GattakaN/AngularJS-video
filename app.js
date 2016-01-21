@@ -6,6 +6,7 @@ angular.module("app", ["ui.router"])
             templateUrl: "first.html"
         })
     })
+
     .config(function config($stateProvider){
         $stateProvider.state("second", {
             url:"",
@@ -25,3 +26,4 @@ angular.module("app", ["ui.router"])
         var second = this;
         second.greeting = greeting;
     })
+
